@@ -63,12 +63,12 @@ public class SearchService {
                 descMatches = item.getDescription().toLowerCase().contains(query);
             }
 
-            // If either one matches, add to our list
+
             if (nameMatches || descMatches) {
                 itemList.add(item);
             }
         }
-        // Return results
+
         return itemList;
     }
 }

@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        JAVA_HOME = 'C:\Users\thinkpad t490\.jdks\corretto-1.8.0_412'
+        JAVA_HOME = 'C:\\Users\\thinkpad t490\\.jdks\\corretto-1.8.0_412'
     }
 
     stages {
